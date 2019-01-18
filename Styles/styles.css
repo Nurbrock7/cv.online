@@ -27,6 +27,7 @@ ul li a {
     color: #1d1c18;;
     display: block;
     padding-left: 5px;
+    
 }
 
 ul li a:hover{
@@ -49,7 +50,8 @@ h1 {
     text-decoration-color:white;
     font-size: 3rem ;
     letter-spacing: 10px;
-text-decoration-line: underline;
+    text-decoration-line: underline;
+    padding-left: 50px;
 
 }
 
@@ -124,6 +126,7 @@ h4 {
     color: #a49c9c;
     background-color: #0009;
     border-radius: 4em;
+    padding-left: 50px;
 }
 
 #edu {
@@ -133,7 +136,7 @@ h4 {
 }
 
 #education {
-    color:#9cffd9;
+    color: white;
     text-decoration: none;
     text-decoration-color: white;
     letter-spacing: 10px;
@@ -172,6 +175,25 @@ border-radius: 4em;
 }
 
 .container {
-    background-color: aqua;
+    background-color: #00000080;
 
+}
+
+
+.Me {
+
+    font-size: 35px;
+
+}
+
+@media only screen and (max-width:1000px) {
+    .Picture { 
+        max-width: 750px;
+        min-width: 50px;
+    }
+ }
+
+.fab fa-facebook- {
+    font-size: 10em;
+    margin-left: 50px
 }
