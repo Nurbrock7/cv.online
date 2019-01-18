@@ -25,3 +25,25 @@ h2 {
     
 
 }
+
+i {
+    height: 200px;
+    width: 200px;
+    font-size: 300px 
+}
+
+.iframe {
+    text-align: center;
+    
+
+}
+
+a :hover{
+    color: black
+
+
+}
+
+a :active {
+    color: red ;
+} 
