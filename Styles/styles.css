@@ -1,7 +1,10 @@
 /* This is my Style sheet */
-body{background-image: url(../images/pauline-bernfeld-1213584-unsplash.jpg) ;
+body{background-image: url(../images/pexels-photo-701353.jpg) ;
     background-repeat: no-repeat;
     background-size: cover;
+    font-family: 'Raleway', sans-serif;
+
+
 
 }
 
@@ -62,8 +65,9 @@ nav {
     font-size: 2rem;
     float: right;
     display: inline-flex ;
-    position: sticky;
     top: 0%;
+    scroll-behavior: smooth;
+    transition-delay: 0.5
 }
 
 .image {
@@ -103,7 +107,8 @@ h2 {
     border-bottom-style: solid;
     border-right-width: 4px;
     border-right-style: solid;
-    background-color: rgba(0, 0, 0, 0.77);
+    background-color: #4cb963;
+    text-align: center;
 
 }
 
@@ -123,10 +128,13 @@ p {
 h4 {
     font-size: 3rem;
     text-decoration-line: underline;
-    color: #a49c9c;
     background-color: #0009;
     border-radius: 4em;
     padding-left: 50px;
+    background-color: #b4c5e4;
+    text-align: center;
+    font-family: 'Staatliches', cursive;
+    color: black;
 }
 
 #edu {
@@ -161,10 +169,10 @@ ul ol {
 
 .title {
     background-color: #000;
-border-radius: 4em;
+    border-radius: 4em;
 }
 
-.Skills {
+.skills {
     text-align: center;
     font-size: 3rem;
     text-decoration-line: underline;
@@ -180,10 +188,16 @@ border-radius: 4em;
 }
 
 
-.Me {
+.me {
 
     font-size: 35px;
 
+}
+
+/* responsiveness */
+
+@media screen and (min-width:360px) {
+    .body {max-width: 460px;}
 }
 
 @media only screen and (max-width:1000px) {
@@ -198,3 +212,49 @@ border-radius: 4em;
     margin-left: 50px
 }
 
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    text-align: center;
+    letter-spacing: 15px;
+}
+
+
+
+h2 {
+    font-family: 'ZCOOL KuaiLe', cursive;
+    text-align: center;
+    letter-spacing: 15px;
+    border-radius: 3em;
+    border-top-style: solid;
+    border-top-width: 10px;
+    border-bottom-width: 10px;
+    border-bottom-style: solid;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+
+}
+
+i {
+    height: 200px;
+    width: 200px;
+    font-size: 300px 
+}
+
+.iframe {
+    text-align: center;
+    
+
+}
+
+a :hover{
+    color: black
+
+
+}
+
+a :active {
+    color: red ;
+} 
