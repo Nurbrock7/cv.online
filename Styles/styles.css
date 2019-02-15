@@ -12,6 +12,9 @@ ul{
     margin: 0% ;
     padding: 0%;
     list-style: none;
+    background-color: antiquewhite;
+    border-radius: 0.5em;
+    scroll-behavior: smooth;
 
 }
 
@@ -71,11 +74,12 @@ nav {
 }
 
 .image {
-    margin-top: 50px;
-
 padding-right: 100px;
 padding-top: 100px;
-margin-left: 300px
+margin-left: 300px;
+width: 600px;
+height: 640px;
+padding-left: 300px;
 }
 
 .box {
@@ -115,7 +119,8 @@ h2 {
 
 p {
     color: white;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    background-color: cadetblue;
+    border-radius: 20px;
     padding: 50px;
     font-size: 40px;
     text-align: initial;
@@ -137,13 +142,14 @@ h4 {
     color: black;
 }
 
-#edu {
+.edu {
     color: white;
     text-decoration: none;
-    font-size: 20px
+    font-size: 20px;
+    background-color: black;
 }
 
-#education {
+.education {
     color: white;
     text-decoration: none;
     text-decoration-color: white;
@@ -162,7 +168,7 @@ h5{
 ul ol {
 
     text-decoration: none;
-    color: white;
+    color: black;
     font-size: 40px;
     text-align: initial;
 }
@@ -179,13 +185,12 @@ ul ol {
     color: #a49c9c;
     background-color: #0009;
     border-radius: 4em;
+    
 
 }
 
-.container {
-    background-color: #00000080;
 
-}
+
 
 
 .me {
@@ -193,19 +198,6 @@ ul ol {
     font-size: 35px;
 
 }
-
-/* responsiveness */
-
-@media screen and (min-width:360px) {
-    .body {max-width: 460px;}
-}
-
-@media only screen and (max-width:1000px) {
-    .Picture { 
-        max-width: 750px;
-        min-width: 50px;
-    }
- }
 
 .fab fa-facebook- {
     font-size: 10em;
@@ -237,24 +229,40 @@ h2 {
 
 }
 
-i {
-    height: 200px;
-    width: 200px;
-    font-size: 300px 
-}
-
-.iframe {
-    text-align: center;
-    
+.contact {
+    background-color: #1d1c18
 
 }
 
-a :hover{
-    color: black
-
-
+.body {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 1fr 1fr ;
+    grid-template-areas:  
+     "header header"
+     "main main"
 }
 
-a :active {
-    color: red ;
-} 
+.header {
+    grid-area: header ;
+}
+
+.main {
+    grid-area: main;
+}
+
+
+/* responsiveness */
+
+/* @media screen and (min-width:360px) {
+    .body {max-width: 460px;}
+}
+
+@media only screen and (max-width:1000px) {
+    .Picture { 
+        max-width: 750px;
+        min-width: 50px;
+    }
+ } */
+
