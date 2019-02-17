@@ -140,6 +140,8 @@ h4 {
     text-align: center;
     font-family: 'Staatliches', cursive;
     color: black;
+    border-radius: 20px;
+
 }
 
 .edu {
@@ -157,7 +159,7 @@ h4 {
     background-color: #000000b3;
     border-radius: 4em;
 }
-}
+
 
 h5{
     text-align: initial;
@@ -228,10 +230,8 @@ h2 {
 
 }
 
-.contact {
-    background-color: #1d1c18
 
-}
+
 
 .body {
     display: grid;
@@ -262,10 +262,12 @@ h2 {
         font-weight: 100;
         margin: 10%;
         color: floralwhite;
+        float: none;
+        font-size: 25px;
     }
  body{
      background-image: none;
-     background-color: crimson;
+     background-color: #f6ae2d;
 
  }
  
@@ -286,8 +288,10 @@ h2 {
 
     h4 {
         background-color: transparent;
-        color: khaki;
+        color: black;
         text-decoration: none;
+        border-radius: 20px;
+        border-color: black
     }
 
     #whoami {
@@ -297,7 +301,7 @@ h2 {
 
     h1 {
         display: block;
-        font-size: 25px;
+        font-size: 30px;
         margin-right: 10%;
         text-align: center;
         padding: 0%;
@@ -306,7 +310,7 @@ h2 {
     .main-primary{
         color: #fff;
         text-decoration-color: black;
-        font-size: 30px;
+        font-size: 40px;
         background-color: transparent;
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 
@@ -320,10 +324,62 @@ h2 {
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     }
 
-    .contact {
+    .contact-list {
         background-color: transparent;
         font-size: 10px;
+        padding: 5%,5%;
+        font-size: 25px;
+    }
+
+    .main-primary ol {
+        text-decoration-color: black;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+ .skills {
+     background-color: transparent; 
+     color: royalblue;
+     text-decoration: none;
+ }
+
+ .work {
+     color: black;
+ }
+
+ .work-exprirence 
+ {
+     font-size: 20px;
+ }
+    .main-sub {
+        background-color: black;
+        font-size: 20px;
     }
 }
 
 
+@media screen and (max-width:768px)
+ {
+     .title {
+     background-color: #1b9aaa ;
+     font-family: 'ZCOOL QingKe HuangYou', cursive; 
+ }
+
+    ul {
+     background-color: #808f85;
+
+ }
+    #whoami {
+    background-color: #808f85;
+}
+
+body {
+    background-image: none;
+    background-color: #9ae19d;
+}
+
+.skills {
+    background-color: #b4c5e4;
+    color: black;
+}
+
+}
