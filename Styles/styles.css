@@ -7,7 +7,7 @@ body{background-image: url(../images/pexels-photo-701353.jpg) ;
 
 
 }
-
+/* this is for my unordered list of my navbar */
 ul{
     margin: 0% ;
     padding: 0%;
@@ -17,7 +17,7 @@ ul{
     scroll-behavior: smooth;
 
 }
-
+/* this is a list of my unordered list */
 ul li {
     float: left;
     width: 200px;
@@ -27,7 +27,7 @@ ul li {
     color: rgb(248, 248, 248);
     margin-right: 3px;
 }
-
+/* unordered list a tag */
 ul li a {
     text-decoration: none;
     color: #1d1c18;;
@@ -35,11 +35,11 @@ ul li a {
     padding-left: 5px;
     
 }
-
+/* this will allow the back ground colour of the nav bar to change when hovered upon.  */
 ul li a:hover{
     background-color:white
 }
-
+/* this will allow the background colour to change once clicked on */
 ul li a:active{
     background-color: grey
 }
@@ -50,7 +50,7 @@ ul li ul li {
 ul li:hover ul li {
     display: block ;
 }
-
+/* main heading */
 h1 {
     color: white;
     text-decoration-color:white;
@@ -60,7 +60,7 @@ h1 {
     padding-left: 50px;
 
 }
-
+/* nav bar */
 nav {
     text-align: left ;
     text-decoration-color:#1d1c18;
@@ -72,7 +72,7 @@ nav {
     scroll-behavior: smooth;
     transition-delay: 0.5
 }
-
+/* styling for my image and all round padding */
 .image {
 padding-right: 100px;
 padding-top: 100px;
@@ -82,7 +82,7 @@ height: 640px;
 padding-left: 300px;
 }
 
-.box {
+/* .box {
     background-color:rgba(0,0,0, 0.4);
     color: beige ;
     height:800px ;
@@ -93,14 +93,14 @@ padding-left: 300px;
     border-radius: 4%;
     margin-top: 50px;
 
-}
+} */
 
-h2 {
+/* h2 {
     color: floralwhite ;
     font-size: 30px;
 
-}
-
+} */
+/* the styling of the div that describes who I am. */
 #whoami {
     border: 4rem ;
     border-top-width: 4px;
