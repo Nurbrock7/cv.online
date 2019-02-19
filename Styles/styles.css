@@ -7,7 +7,7 @@ body{background-image: url(../images/pexels-photo-701353.jpg) ;
 
 
 }
-
+/* this is an unordered list for my nav */
 ul{
     margin: 0% ;
     padding: 0%;
@@ -17,7 +17,7 @@ ul{
     scroll-behavior: smooth;
 
 }
-
+/* this is a list of the unordered CV */
 ul li {
     float: left;
     width: 200px;
@@ -35,11 +35,11 @@ ul li a {
     padding-left: 5px;
     
 }
-
+/* this effect will allow the nav to change colour when hovered upon. */
 ul li a:hover{
     background-color:white
 }
-
+/* once clicked on , nav will change to this color */
 ul li a:active{
     background-color: grey
 }
@@ -51,6 +51,7 @@ ul li:hover ul li {
     display: block ;
 }
 
+/* This is my main heading and its styles */
 h1 {
     color: white;
     text-decoration-color:white;
@@ -72,7 +73,7 @@ nav {
     scroll-behavior: smooth;
     transition-delay: 0.5
 }
-
+/* styling for my image. */
 .image {
 padding-right: 100px;
 padding-top: 100px;
@@ -82,25 +83,9 @@ height: 640px;
 padding-left: 300px;
 }
 
-.box {
-    background-color:rgba(0,0,0, 0.4);
-    color: beige ;
-    height:800px ;
-    margin-left: 70px;
-    padding-left: 50px;
-    padding-right: 450px;
-    margin-right: 70px;
-    border-radius: 4%;
-    margin-top: 50px;
 
-}
 
-h2 {
-    color: floralwhite ;
-    font-size: 30px;
-
-}
-
+/* this ID describes who i am and its styling for that specific div. */
 #whoami {
     border: 4rem ;
     border-top-width: 4px;
@@ -116,7 +101,7 @@ h2 {
 
 }
 
-
+/* styking for all paragrapghs */
 p {
     color: white;
     background-color: cadetblue;
@@ -129,7 +114,7 @@ p {
 
 }
 
-
+/* styling for all my h4 headings  */
 h4 {
     font-size: 3rem;
     text-decoration-line: underline;
@@ -143,7 +128,7 @@ h4 {
     border-radius: 20px;
 
 }
-
+/* this is the class for the educatiion and styles that div */
 .main.edu {
     color: white;
     text-decoration: none;
@@ -160,13 +145,14 @@ h4 {
     border-radius: 4em;
 }
 
-
+/* styling for my h5 headings */
 h5{
     text-align: initial;
     border-radius: 3em;
     font-size: 40px;
 }
 
+/* this is for the styling of my main primary school */
 ul ol {
 
     text-decoration: none;
@@ -193,7 +179,7 @@ ul ol {
 
 
 
-
+/* styling about my image */
 .me {
 
     font-size: 35px;
@@ -232,7 +218,7 @@ h2 {
 
 
 
-
+/* below is the grids i added to my portfolio */
 .body {
     display: grid;
     grid-gap: 20px;
@@ -251,8 +237,12 @@ h2 {
     grid-area: main;
 }
 
+.contact-list {
+    overflow: hidden;
+    font-size: 10px;
+}
 
-/* responsiveness */
+/* responsiveness for 3 different types of desktops */
 
 /* Mobile */
 @media screen and (max-width: 414px) {
@@ -328,7 +318,7 @@ h2 {
         background-color: transparent;
         font-size: 10px;
         padding: 5%,5%;
-        font-size: 25px;
+        font-size: 10px;
     }
 
     .main-primary ol {
@@ -354,7 +344,9 @@ h2 {
         background-color: black;
         font-size: 20px;
     }
+#email , #cell , #facebook {font-size: 30px;}
 }
+
 
 
 @media screen and (max-width:768px)
@@ -429,4 +421,13 @@ h4 {
     background-color: #1d1c18;
     padding-right: 50px;
 }
+}
+
+
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 1) { 
+
+
 }
