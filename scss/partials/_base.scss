@@ -1,0 +1,238 @@
+/* This is my Style sheet */
+body{background-image: url(../images/pexels-photo-701353.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Raleway', sans-serif;
+
+
+
+}
+/* this is an unordered list for my nav */
+ul{
+    margin: 0% ;
+    padding: 0%;
+    list-style: none;
+    background-color: antiquewhite;
+    border-radius: 0.5em;
+    scroll-behavior: smooth;
+
+}
+/* this is a list of the unordered CV */
+ul li {
+    float: left;
+    width: 200px;
+    height: 40px;
+
+
+    color: rgb(248, 248, 248);
+    margin-right: 3px;
+}
+/* unordered list a tag */
+ul li a {
+    
+    color: #1d1c18;;
+    display: block;
+    padding-left: 5px;
+    
+}
+/* this effect will allow the nav to change colour when hovered upon. */
+ul li a:hover{
+    background-color:white
+}
+/* once clicked on , nav will change to this color */
+ul li a:active{
+    background-color: grey
+}
+ul li ul li {
+    display: none;
+}
+
+ul li:hover ul li {
+    display: block ;
+}
+/* main heading */
+h1 {
+    color: white;
+    text-decoration-color:white;
+    font-size: 3rem ;
+    letter-spacing: 10px;
+    text-decoration-line: underline;
+    padding-left: 50px;
+
+}
+/* nav bar */
+nav {
+    text-align: left ;
+    text-decoration-color:#1d1c18;
+    text-decoration: none ;
+    font-size: 2rem;
+    float: right;
+    display: inline-flex ;
+    top: 0%;
+    scroll-behavior: smooth;
+    transition-delay: 0.5
+}
+/* styling for my image. */
+.image {
+padding-right: 100px;
+padding-top: 100px;
+margin-left: 300px;
+width: 600px;
+height: 640px;
+padding-left: 300px;
+}
+
+/* .box {
+    background-color:rgba(0,0,0, 0.4);
+    color: beige ;
+    height:800px ;
+    margin-left: 70px;
+    padding-left: 50px;
+    padding-right: 450px;
+    margin-right: 70px;
+    border-radius: 4%;
+    margin-top: 50px;
+
+} */
+
+/* h2 {
+    color: floralwhite ;
+    font-size: 30px;
+
+} */
+/* the styling of the div that describes who I am. */
+#whoami {
+    border: 4rem ;
+    border-top-width: 4px;
+    border-top-style: solid;
+    border-left-width: 4px;
+    border-left-style: solid;
+    border-bottom-width: 4px;
+    border-bottom-style: solid;
+    border-right-width: 4px;
+    border-right-style: solid;
+    background-color: #4cb963;
+    text-align: center;
+
+}
+
+/* styking for all paragrapghs */
+p {
+    color: white;
+    background-color: cadetblue;
+    border-radius: 20px;
+    padding: 50px;
+    font-size: 40px;
+    text-align: initial;
+
+
+
+}
+
+/* styling for all my h4 headings  */
+h4 {
+    font-size: 3rem;
+    text-decoration-line: underline;
+    background-color: #0009;
+    border-radius: 4em;
+    padding-left: 50px;
+    background-color: #b4c5e4;
+    text-align: center;
+    font-family: 'Staatliches', cursive;
+    color: black;
+    border-radius: 20px;
+
+}
+/* this is the class for the educatiion and styles that div */
+.main.edu {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    background-color: black;
+}
+
+.education {
+    color: white;
+    text-decoration: none;
+    text-decoration-color: white;
+    letter-spacing: 10px;
+    background-color: #000000b3;
+    border-radius: 4em;
+}
+
+/* styling for my h5 headings */
+h5{
+    text-align: initial;
+    border-radius: 3em;
+    font-size: 40px;
+}
+
+/* this is for the styling of my main primary school */
+ul ol {
+
+    text-decoration: none;
+    color: black;
+    font-size: 40px;
+    text-align: initial;
+}
+
+.title {
+    background-color: #000;
+    border-radius: 4em;
+}
+
+.skills {
+    text-align: center;
+    font-size: 3rem;
+    text-decoration-line: underline;
+    color: #a49c9c;
+    background-color: #0009;
+    border-radius: 4em;
+    
+
+}
+
+
+
+/* styling about my image */
+.me {
+
+    font-size: 35px;
+
+}
+
+.fab fa-facebook- {
+    font-size: 10em;
+    margin-left: 50px
+}
+
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    text-align: center;
+    letter-spacing: 15px;
+}
+
+
+
+h2 {
+    font-family: 'ZCOOL KuaiLe', cursive;
+    text-align: center;
+    letter-spacing: 15px;
+    border-radius: 3em;
+    border-top-style: solid;
+    border-top-width: 10px;
+    border-bottom-width: 10px;
+    border-bottom-style: solid;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+
+}
+
+.contact-list {
+    overflow: hidden;
+    font-size: 10px;
+}
+

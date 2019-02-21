@@ -1,0 +1,9 @@
+@import 'partials/base',
+        'partials/components',
+        'partials/layouts',
+        'partials/mixins',
+        'partials/responsive',
+        'partials/variables'
+
+        // partials let you split your stylesheet into separate files. They help modularize your CSS and keep things  // easier to maintain. Each partial is a single file and is like a small piece of the big CSS puzzle;
+// it contains a portion of your stylesheet.

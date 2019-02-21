@@ -1,0 +1,189 @@
+// * responsiveness for 3 different types of desktops */
+
+/* Mobile */
+@media screen and (max-width: 414px) {
+    ul{ 
+        background-color: transparent;
+        display: block;
+        font-weight: 100;
+        margin: 10%;
+        color: floralwhite;
+        float: none;
+        font-size: 25px;
+    }
+ body{
+     background-image: none;
+     background-color: #f6ae2d;
+
+ }
+ 
+
+ .title {
+     font-size: 30px;
+     color: rgb(255, 255, 255);
+     border-radius: 0%;
+     letter-spacing: normal;
+     text-decoration: none;
+     margin: 5%;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     padding: 5%;
+     background-color: tomato;
+     border: solid;
+     background-origin: padding-box;
+    }
+
+    h4 {
+        background-color: transparent;
+        color: black;
+        text-decoration: none;
+        border-radius: 20px;
+        border-color: black
+    }
+
+    #whoami {
+        background-color: #1d1c18;
+         font-family: monospace
+    }
+
+    h1 {
+        display: block;
+        font-size: 30px;
+        margin-right: 10%;
+        text-align: center;
+        padding: 0%;
+    }
+
+    .main-primary{
+        color: #fff;
+        text-decoration-color: black;
+        font-size: 40px;
+        background-color: transparent;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    }
+
+    .work {
+        color: #fff;
+        text-decoration-color: black;
+        font-size: 30px;
+        background-color: transparent;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+
+    .contact-list {
+        background-color: transparent;
+        font-size: 10px;
+        padding: 5%,5%;
+        font-size: 10px;
+    }
+
+    .main-primary ol {
+        text-decoration-color: black;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+ .skills {
+     background-color: transparent; 
+     color: royalblue;
+     text-decoration: none;
+ }
+
+ .work {
+     color: black;
+ }
+
+ .work-exprirence 
+ {
+     font-size: 20px;
+ }
+    .main-sub {
+        background-color: black;
+        font-size: 20px;
+    }
+#email , #cell , #facebook {font-size: 30px;}
+}
+
+
+
+@media screen and (max-width:768px)
+ {
+     .title {
+     background-color: #1b9aaa ;
+     font-family: 'ZCOOL QingKe HuangYou', cursive; 
+ }
+
+    ul {
+     background-color: #808f85;
+
+ }
+    #whoami {
+    background-color: #808f85;
+}
+
+body {
+    background-image: none;
+    background-color: #9ae19d;
+}
+
+.skills {
+    background-color: #b4c5e4;
+    color: black;
+}
+
+.contact-list {
+    background-color: white;
+    text-decoration-color:  black;
+}
+
+h4 {
+    background-color: transparent;
+}
+
+.main-edu {
+    background-color: #fcca46;
+    border-radius: 20px;
+    
+}
+
+.main-primary  {
+    background-color: transparent;
+    color: black;
+
+}
+
+.main-sub {
+    background-color: transparent;
+    text-decoration: underline;
+    color: #f6ae2d;
+}
+
+.sec-edu {
+    border-radius: 20px ;
+    color: #fcca46; 
+    background-color: #1d1c18;
+    padding-right: 50px;
+}
+
+.pri-edu {
+    border-radius: 20px ;
+    color: #fcca46; 
+    background-color: #1d1c18;
+    padding-right: 50px;
+}
+
+.skills {
+    border-radius: 20px ;
+    color: #fcca46; 
+    background-color: #1d1c18;
+    padding-right: 50px;
+}
+}
+
+
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 1) { 
+
+
+  }

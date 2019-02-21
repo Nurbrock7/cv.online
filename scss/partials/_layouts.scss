@@ -1,0 +1,19 @@
+
+/* below is the grids i added to my portfolio */
+.body {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 1fr 1fr ;
+    grid-template-areas:  
+     "header header"
+     "main main"
+}
+
+.header {
+    grid-area: header ;
+}
+
+.main {
+    grid-area: main;
+}

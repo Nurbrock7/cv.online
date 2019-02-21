@@ -1,5 +1,8 @@
 # cv.online
+<<<<<<< HEAD
 # cv.online
+=======
+>>>>>>> f0aa176a4464d5a6b713a2d51073856e41f20dd8
 # My Online CV
 - Project One: Building my online Cv
 
@@ -45,7 +48,11 @@ Tools:
 - Live Link Created
 
 2018-12-07:
+<<<<<<< HEAD
 - Navbar created 
+=======
+- Navbar created
+>>>>>>> f0aa176a4464d5a6b713a2d51073856e41f20dd8
 
 2018-12-10:
 - Navbar updated
