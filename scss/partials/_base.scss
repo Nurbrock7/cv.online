@@ -236,3 +236,65 @@ h2 {
     font-size: 10px;
 }
 
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    padding: 0;
+    margin: 0;
+  }
+  
+  #app {
+    width: 100vw;
+    height: 500vh;
+    background: hsl(200, 50%, 90%)
+  }
+  
+  .navbar {
+    height: 60px;
+    width: 100vw;
+    background: hsl(200, 50%, 50%);
+    position: fixed;
+    box-shadow: 0 2px 15px rgba(71, 120, 120, 0.5);
+    transform: translate3d(0, 0, 0);
+    transition: 0.1s all ease-out;
+  }
+  
+  .navbar.hidden-navbar {
+    box-shadow: none;
+    transform: translate3d(0, -100%, 0);
+  }
+  
+  .message {
+    position: fixed;
+    left: 50vw;
+    top: calc(50vh + 60px);
+    transform: translate(-50%, -50%);
+    font-family: 'Avenir', Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: 5vw;
+    text-align: center;
+    color: hsl(200, 50%, 60%);
+    font-weight: bold;
+  }
+  
+  .arrow {
+    width: 7.5vw;
+    height: 7.5vw;
+  }
+  
+  .arrow path {
+    fill: hsl(200, 50%, 50%);
+  }
+  
+  .fade-enter-active, .fade-leave-active {
+    transition: 0.1s all ease-out;
+  }
+  
+  .fade-enter, .fade-leave-to {
+    opacity: 0;
+  }
+  
+  

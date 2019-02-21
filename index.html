@@ -14,30 +14,35 @@
     <title>Portfolio|Moegamat-Nur Brock</title>
 </head>
 <body>
-    
-        <header class="header">
-            <h1 class="title">CV of Moegamat Nur Brock</h1>
-            <nav class="nav">
-                    <!-- The nav bar has different things in it that takes you to different sections of the Cv and you are able to read and understand. There are jump links included in the nav bar as well.   -->
-                <ul>
-                    <!-- the lis below is fir the nav bar and it will take you to diffent areas of the cv -->
-                    <li><a href="#">About me</a>
-                        <ul>
-                            <li><a href="#whoami">Who am I</a></li>    
-                        </ul>
-                    </li>
-                        <li><a href="#education">Education</a></li>
-                        <li><a href="#">Contact</a>
-                        <ul>
-                        <li><a href="#facebook">Facebook</a></li>
-                        <li><a href="#cell">Cell Number</a></li>
-                        <li><a href="#email">Email</a></li>
-                        </ul>
-                    </li>
-                </ul>
-
-            </nav>                     
+        <div>
+        <!-- <header class="header">
+            <h1 class="title">CV of Moegamat Nur Brock</h1> -->
+            <div id="app">
+                <div
+                  class="navbar"
+                  :class="{ 'hidden-navbar': !showNavbar }"
+                ></div>
+                <transition name="fade">
+                  <div class="message" key="down" v-if="showNavbar">
+                    <div class="text">
+                      Scroll Down to Hide Navbar
+                    </div>
+                    <svg class="arrow" viewBox="0 0 24 24">
+                      <path fill="#000000" d="M9,4H15V12H19.84L12,19.84L4.16,12H9V4Z" />
+                    </svg>
+                  </div>
+                  <div class="message" key="up" v-else>
+                    <div class="text">
+                      Scroll Up to Show Navbar
+                    </div>
+                    <svg class="arrow" viewBox="0 0 24 24">
+                      <path fill="#000000" d="M14,20H10V11L6.5,14.5L4.08,12.08L12,4.16L19.92,12.08L17.5,14.5L14,11V20Z" />
+                    </svg>
+                  </div>
+                </transition>
+              </div>            
         </header>
+       </div>
         <div class="main">
              <br>
                 <!-- this is the heading of who i am -->
@@ -153,7 +158,7 @@
                                 <!-- end of cv -->
 
                                             
-                                            
+                                <script src="js/main.js"></script>            
                                                                              
         </div>
     </body>

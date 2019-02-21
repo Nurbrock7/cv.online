@@ -187,3 +187,27 @@ h4 {
 
 
   }
+
+
+  @media (max-width: 900px) {
+    .message {
+      font-size: 7vw;
+    }
+  
+    .arrow {
+      width: 10vw;
+      height: 10vw;
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .message {
+      width: 90vw;
+      font-size: 10vw;
+    }
+  
+    .arrow {
+      width: 15vw;
+      height: 15vw;
+    }
+  }
